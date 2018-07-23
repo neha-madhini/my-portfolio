@@ -1,0 +1,146 @@
+.logo {
+    float: left;
+    height: 80px;
+    width: auto;
+}
+
+
+.name {
+    color: #2d3c49;
+    font-family: Roboto, sans-serif;
+}
+
+
+.title {
+     color: #2d3c49;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bio {
+   text-align: right;  
+}
+
+    
+hr {
+ background-color: #7d97ad;
+ height: 4px;
+ width: 100%;
+}
+
+
+.main-image {
+          display: block;
+          padding-top: 20px;
+          width: 100%;          
+}
+
+
+.highlight {
+         color: #7d97ad;
+         font-family: Arial, sans-serif;
+         font-size: 35px;
+}
+
+
+.wrapper {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       width: 100%;
+}
+
+
+.work {
+    margin: 0;
+    width: 100%;
+}
+
+
+.gallery-image {
+             height: 35vh;
+             width: 30vw;
+}
+
+
+.gallery {
+       color: #2d3c49;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 35px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+}
+
+
+.picture {
+       text-align: center;
+}
+
+
+.github-links {
+            color: #7d97ad;       
+            font-family: Roboto, sans-serif;
+            font-size: 17px;   
+}
+
+
+.container {
+         margin-left: auto;
+         margin-right: auto;
+}
+
+
+@media screen, projection {
+        html {
+            background: #fff;
+            color: #444;
+        }
+}
+
+
+@media screen and (max-width: 500px) {
+        .gallery-image {               
+                     width: 100%;
+        }
+
+        .wrapper {
+               display: flex;
+               flex-wrap: wrap;
+               flex-direction: column;
+        }
+        .work {
+            margin-bottom: 15px;
+            width: 100%;
+        }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 620px) {
+        .gallery-image {
+                     height: 80vh;
+                     width: 96vw;
+        }
+        .work {
+            margin: 5px;
+            width: 100%;
+        }
+}
+
+
+@media screen and (min-width: 621px) and (max-width: 850px) {
+        .gallery-image {
+                     width: 100%;
+        }
+        .wrapper {
+               display: flex;
+               flex-wrap: wrap;
+               flex-direction: row;
+               justify-content: space-between;
+               width: 100%;
+        }
+        .work {
+            width: 100%;
+            margin: auto;
+            padding-bottom: 5px;
+        }
+}
